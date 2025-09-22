@@ -12,6 +12,9 @@ image:
   alt: Soaring Solaire icon image featuring a pixel art version of Solaire crounched down as if preparing to leap
 ---
 
+> This site is still currently under construction and as such these articles are unfinished.
+{: .prompt-warning }
+
 ## What was it like to make?
 Im sure ill fill this out at somepoint
 
