@@ -1,6 +1,6 @@
 ---
 title: Shore Leave
-description: A short game about solving puzzles with a magic pen!
+description: A short game about solving puzzles with a magic notebook!
 date: 2025-09-22
 categories: [Unity]
 tags: [university, third year, unity, c#, puzzle game]     # TAG names should always be lowercase
