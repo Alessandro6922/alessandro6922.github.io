@@ -12,11 +12,12 @@ image:
   alt: Soaring Solaire icon image featuring a pixel art version of Solaire crounched down as if preparing to leap
 ---
 
-> This site is still currently under construction and as such these articles are unfinished.
-{: .prompt-warning }
+## Overview
+Soaring Solaire is a difficult but rewarding 2D platformer inspired by the hit 2020 game Jump King.
+It was developed in my first year of university with C++ and the SFML library, over the course of 10 days; Serving as a valuable oppurtunity to learn many new skills.
 
-## What was it like to make?
-Im sure ill fill this out at somepoint
-
-## A second title?
-Indeed, for i need to check this is working
+# Key Features
+- A fully controllable player character with a unique jumping mechanic.
+- A scene manager allowing seamless switching between the title screen and gameplay.
+- An audio system featuring several sound effects.
+- An 8 bit rendition of the dark souls soundtrack by [CrimsonCobalt](https://www.youtube.com/@CrimsonCobalt).
