@@ -17,6 +17,8 @@ Shore Leave is a short relaxing puzzle game about gathering your friends and som
 Set on Pīniki Shores you follow Robin, a cat who has just come home and is excited to see their friends again, exploring the island and meeting all it's residents.
 Solve puzzles in 2D to unlock different areas of the island and to collect different foods to ensure you have the best picnic possible!
 
+The game can be downloaded for free on [Itch.io](https://splitscreen2025.itch.io/shore-leave)!
+
 ## **What did i work on?**
 As lead developer I developed several full areas of the game, some key parts are:
 - **The Scene Management system**, allowing the seamsless transition between the 3D main scene and the 2D puzzles.

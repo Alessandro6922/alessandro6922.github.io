@@ -12,10 +12,20 @@ image:
   alt: Blurred image of a grassy scene with the title written overtop.
 ---
 
+> This article is currently incomplete. 
+{: .prompt-warning }
+
 # **Overview**
 This research project looked at utilising mesh shaders to enhance modern high-fidelity grass rendering through continuous LODs.
+
+The full source code can be viewed [here](https://github.com/Alessandro6922/Honours-Project).
 
 ## **What was developed?**
 An application was developed using C++ and the Vulkan graphics API.
 
 The program features a modern high-fidelity implementation of grass implemented for both a traditional vertex shader based pipeline and a modern mesh/task shader based pipeline.
+
+The vertex shader based pipeline utilises a traditional discrete LOD system showing a sharp cut off between the seperate models, visualised here with high LOD rendered in white and low LOD rendered in grey.
+![Desktop View](grassVertexLOD.png){: width="577" height="529" }
+
+The grass is fully customisable with several options availible to be tweaked such as height, width, curve and lean.
