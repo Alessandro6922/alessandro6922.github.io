@@ -12,20 +12,34 @@ image:
   alt: Blurred image of a grassy scene with the title written overtop.
 ---
 
-> This article is currently incomplete. 
-{: .prompt-warning }
-
 # **Overview**
-This research project looked at utilising mesh shaders to enhance modern high-fidelity grass rendering through continuous LODs.
+An implementation of a modern geomertry based approach for grass rendering, through both a traditional vertex shader based pipeline and a modern mesh shader based pipeline.
+This runs within a custom vulkan renderer developed for the project.
 
-The full source code can be viewed [here](https://github.com/Alessandro6922/Honours-Project).
+![Desktop View](grass.png){: width="600" height="300"}
+
+The full source code can be viewed [here](https://github.com/Alessandro6922/Honours-Project){:target="_blank"}.
+
+The accompanying dissertation can be viewed [here]({{https://alessandro6922.github.io}}/downloads/Dissertation.pdf){:target="_blank"}.
 
 ## **What was developed?**
 An application was developed using C++ and the Vulkan graphics API.
 
 The program features a modern high-fidelity implementation of grass implemented for both a traditional vertex shader based pipeline and a modern mesh/task shader based pipeline.
 
-The vertex shader based pipeline utilises a traditional discrete LOD system showing a sharp cut off between the seperate models, visualised here with high LOD rendered in white and low LOD rendered in grey.
-![Desktop View](grassVertexLOD.png){: width="577" height="529" }
-
 The grass is fully customisable with several options availible to be tweaked such as height, width, curve and lean.
+
+![Desktop View](customisations.png){: width="330" height="300"}
+
+## **Research**
+The research for this project looked at utilising mesh shaders to enhance modern high-fidelity grass rendering through continuous LODs.
+
+The vertex shader based pipeline utilises a traditional discrete LOD system showing a sharp cut off between the seperate models, visualised here on the left with high LOD rendered in white and low LOD rendered in grey.
+
+To the right the mesh shader based pipeline's procedural continuous LODs can be seen, with the brightest colour having the most vertices and the darkest colour having the least.
+
+
+![Desktop View](grassVertexLOD.png){: width="330" height="300" .normal}
+![Desktop View](grassMeshLOD.png){: width="300" height="260" .right}
+
+

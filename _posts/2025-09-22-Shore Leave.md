@@ -17,16 +17,16 @@ Shore Leave is a short relaxing puzzle game about gathering your friends and som
 Set on Pīniki Shores you follow Robin, a cat who has just come home and is excited to see their friends again, exploring the island and meeting all it's residents.
 Solve puzzles in 2D to unlock different areas of the island and to collect different foods to ensure you have the best picnic possible!
 
-The game can be downloaded for free on [Itch.io](https://splitscreen2025.itch.io/shore-leave)!
+The game can be downloaded for free on [Itch.io](https://splitscreen2025.itch.io/shore-leave){:target="_blank"}!
 
 ## **What did i work on?**
 As lead developer I developed several full areas of the game, some key parts are:
 - **The Scene Management system**, allowing the seamsless transition between the 3D main scene and the 2D puzzles.
   The system is built for efficient resource management and seamless gameplay.
 - **The Interaction system**, efficiently and scalably allowing custom interactions to be implemented.
-- **The Dialogue system**, implemented utilising [YarnSpinner](https://yarnspinner.dev/), allowing dialogue to be easily written and implemented seamlessly. It features various customisation options per character such as: Colour scheme, speech bubble positioning, and per character font.
+- **The Dialogue system**, implemented utilising [YarnSpinner](https://yarnspinner.dev/){:target="_blank"}, allowing dialogue to be easily written and implemented seamlessly. It features various customisation options per character such as: Colour scheme, speech bubble positioning, and per character font.
 - **The Camera system**, built for a smooth camera experience. The system utilises camera zones with when entered by the player will smoothly move the camera to the desired position and rotation.
-- **The Audio system.** I developed a complete audio system utilising [FMOD](https://www.fmod.com/) allowing for music to play, multiple sound effects to play concurrently and efficiently, and sound effects to be localised to specific areas. This can be seen with the ocean's ambience.
+- **The Audio system.** I developed a complete audio system utilising [FMOD](https://www.fmod.com/){:target="_blank"} allowing for music to play, multiple sound effects to play concurrently and efficiently, and sound effects to be localised to specific areas. This can be seen with the ocean's ambience.
 - **Both the 2D and 3D character controllers**, giving responsive and nice feeling controls to the player.
 - **Game UI.** I implemented the games immersive and novel pause menu as well as all functionality within it.
 - **Events System.** I implemented the games event system, allowing for changes to occur after dialogue, puzzle completion, or any other arbitrary event.
